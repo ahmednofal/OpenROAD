@@ -570,11 +570,8 @@ proc insert_tapcells {db rows tapcell_master dist prefix} {
         set offset $dist2
       }
 
-      if {$row_idx == 0 || $row_idx == [expr [llength $rows]-1] || $gaps_above_below} {
-        set pitch $dist1
-      } else {
-        set pitch $dist2
-      }
+
+      set pitch $dist2
 
       for {set x [expr $llx+$offset]} {$x < $urx} {set x [expr $x+$pitch]} {
         set x [make_site_loc $x $site_x -1 $llx]
