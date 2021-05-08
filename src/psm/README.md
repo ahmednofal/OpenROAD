@@ -14,7 +14,7 @@ repository must be used internal to the OpenROAD integrated app.
 ## Getting Started
 
 You can find usage information inside the OpenROAD app repository in the PDN
-analysis section of the [README file](https://github.com/The-OpenROAD-Project/OpenROAD/blob/openroad/README.md).
+analysis section of the [README file](https://github.com/The-OpenROAD-Project/OpenROAD/blob/master/README.md).
 
 
 ## Cite this Work
